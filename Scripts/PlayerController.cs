@@ -4,6 +4,9 @@ using UnityEngine;
 
 /*
  * A simple class that allows for a player to move in any direction.
+ * You need to add a Character Controller component to your player for this to work,
+ * and a Rigidbody component (that has rotation in all directions frozen)
+ * if you want to apply gravity or to add jumping implementation.
  */
 public class PlayerController : MonoBehaviour
 {
